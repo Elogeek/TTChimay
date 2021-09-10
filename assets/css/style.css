@@ -1,0 +1,32 @@
+/**
+ * General style.
+ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Img ping pong */
+.img {
+    background-image: url("/assets/image/img1.webp");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 50rem;
+    width: 100vh;
+}
+
