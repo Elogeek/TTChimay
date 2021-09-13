@@ -21,12 +21,13 @@ body {
     justify-content: space-between;
 }
 
+div,i {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
 /* Img ping pong */
 .img {
-    background-image: url("/assets/image/img1.webp");
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    height: 50rem;
-    width: 100vh;
+
 }
 
