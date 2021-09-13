@@ -21,9 +21,13 @@ body {
     justify-content: space-between;
 }
 
+div {
+    margin: 1rem;
+}
+
 div,i {
     font-size: 3rem;
-    margin: 1rem;
+
 }
 
 /* Img ping pong */
