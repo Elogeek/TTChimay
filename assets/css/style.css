@@ -21,14 +21,18 @@ body {
     justify-content: space-between;
 }
 
-div {
+nav {
     margin: 1rem;
 }
 
+#logo {
+    margin-right: 0.5rem;
+}
+/* Style logo */
 div,i {
     font-size: 3rem;
+    float: left;
+    letter-spacing: .2rem;
 }
-
-
 
 
