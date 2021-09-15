@@ -31,12 +31,17 @@ nav {
     letter-spacing: 0.5rem;
 }
 
-
-
 #logo {
     margin-right: 0.5rem;
 }
 
 #contact {
     margin-top: 500rem;
+}
+
+/*style loction.html*/
+
+img {
+    width: 3rem;
+    height: 3rem;
 }
