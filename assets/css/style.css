@@ -40,8 +40,79 @@ nav {
 }
 
 /*style loction.html*/
+.container .contText {
+    justify-content: left;
+}
 
-img {
-    width: 3rem;
-    height: 3rem;
+#event1,#event2,#event3,#event4 {
+    width: 48rem;
+    height: 44vh;
+}
+
+#event1, #event3 {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+/* Img born */
+#event2 {
+    margin-top: 23rem;
+    margin-left: -8rem;
+}
+
+/* Img happy b */
+#event3 {
+    position: absolute;
+    left: 0;
+    top: 47rem;
+}
+
+/* Img frieze make by me */
+#event4 {
+    position: absolute;
+    left: 47rem;
+    top: 72rem;
+}
+
+/* Text img one */
+.contText {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-left: 46rem;
+    margin-top: -24rem;
+    width: 100%;
+}
+
+/* Text img two */
+#text2 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    margin-left: -53rem;
+    margin-top: -16rem;
+}
+
+/* Text img three */
+#text3 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-left: -50rem;
+    margin-top: 48rem;
+}
+
+/* Text img four */
+.text4 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: -93rem;
+    margin-top: 74rem;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 3rem;
 }
