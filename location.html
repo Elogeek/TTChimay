@@ -2,61 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/assets/css/location.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Title</title>
 </head>
 <body>
 
-<h1>Locations de la salle</h1>
+<h1 class="bigTitle">Locations de la salle</h1>
 
-<div class="container">
+<!-- lien vers home?! -->
+
+<div class="containerLocation">
 
     <div>
             <img id="event1" src="assets/image/married.webp" alt="img1">
 
         <div class="contText" id="text1">
             <h3><strong>Mariage</strong></h3>
-            <p>
+            <p class="paraLocation">
                 Vous préparez le plus beau jour de votre vie?
                 Vous voulez trouver un lieu rapidement et qui vous correspond vraiment?
                 Vous rechercher une salle privatisé  à petit budget?
-                <a href="#contact">N’hésitez pas à nous contacter pour en savoir plus.</a>
+                <a class="purple" href="#contact" title="contact">N’hésitez pas à nous contacter pour en savoir plus.</a>
 
             </p>
          </div>
     </div>
 
     <div>
-        <img id="event2" class="contText" src="assets/image/born.webp" alt="img2">
-        <div id="text2">
+        <img id="event2"  src="assets/image/born.webp" alt="img2">
+        <div id="text2" class="contText">
             <h3><strong>Naissance</strong></h3>
-            <p>
+            <p class="paraLocation">
                 Vous attendez un heureux événement?
                 Envie de faire la fête? Petit budget?
-                <a href="#contact">Contacter nous</a>
+                <a class="purple" href="#contact" title="contact">Contacter nous</a>
             </p>
         </div>
     </div>
 
     <div>
-        <img id="event3" class="contText" src="assets/image/happy.webp" alt="img3">
-        <div id="text3">
+        <img id="event3" src="assets/image/happy.webp" alt="img3">
+        <div id="text3" class="contText">
             <h3><strong>Anniversaire</strong></h3>
-            <p>
+            <p class="paraLocation">
                 Pas assez de place pour faire la fête?
                 Envie de vous faire plaisir? Petit budget?
-                <a href="#contact">N’hésitez pas à nous contacter pour en savoir plus.</a>
+                <a class="purple" href="#contact" title="contact">N’hésitez pas à nous contacter pour en savoir plus.</a>
             </p>
         </div>
     </div>
 
     <div>
-        <img id="event4" class="contText" src="assets/image/other.png" alt="img4">
-        <div class="text4">
+        <img id="event4" src="assets/image/other.png" alt="img4">
+        <div id="text4" class="contText">
             <h3><strong>Autres événéments</strong></h3>
-            <p>
+            <p class="paraLocation">
                 Possibilité d’accueillir des fêtes de famille, séminaires,fêtes d'entreprises,...<br>
-                <a href="#contact">N’hésitez pas à nous contacter pour en savoir plus.</a>
+                <a class="purple" href="#contact" title="contact">N’hésitez pas à nous contacter pour en savoir plus.</a>
             </p>
         </div>
     </div>
@@ -64,7 +66,8 @@
     <div id="contact">
         <form action="" >
             <input type="text" placeholder="email">
-            <input type="text" placeholder="Votre message ici !">
+            <input type="text" placeholder="Sujet du message ici !">
+            <textarea id="message" name="user-message" placeholder="Votre message ici !"></textarea>
             <button type="submit">Envoyer !</button>
         </form>
     </div>
