@@ -1,0 +1,118 @@
+/*style loction.html*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    text-decoration-line: underline;
+    color: palevioletred;
+}
+
+.container .contText {
+    justify-content: left;
+}
+
+#event1,#event2,#event3,#event4 {
+    width: 48rem;
+    height: 44vh;
+}
+
+#event1, #event3 {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+/* Img born */
+#event2 {
+    margin-top: 23rem;
+    margin-left: -8rem;
+}
+
+/* Img happy b */
+#event3 {
+    position: absolute;
+    left: 0;
+    top: 47rem;
+}
+
+/* Img frieze make by me */
+#event4 {
+    position: absolute;
+    left: 47rem;
+    top: 72rem;
+}
+
+/* Text imgs */
+.contText {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+/* Text img one */
+#text1 {
+    margin-left: 46rem;
+    margin-top: -24rem;
+    width: 100%;
+}
+
+/* Text img two */
+#text2 {
+    padding: 1rem;
+    width: 100%;
+    margin-left: -53rem;
+    margin-top: -16rem;
+}
+
+/* Text img three */
+#text3 {
+    margin-left: -50rem;
+    margin-top: 48rem;
+}
+
+/* Text img four */
+.text4 {
+    padding: 1rem;
+    margin-left: -93rem;
+    margin-top: 74rem;
+}
+
+h3 {
+    color: palevioletred;
+}
+
+h3,p {
+    padding: 1rem;
+    text-align: left;
+}
+
+a {
+    color: palevioletred;
+    text-decoration-line: none;
+}
+
+p {
+    margin-top: -1rem;
+}
+#contact {
+    margin-top: 500rem;
+}
