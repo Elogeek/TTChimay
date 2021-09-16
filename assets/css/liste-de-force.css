@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -32,7 +33,11 @@ h1 {
 table {
     border: 2px solid #3b3b3b;
     color: black;
+    width: 50%;
+    margin: 2rem;
+    padding: 1rem;
 }
+
 table th {
     padding: 1rem;
     text-decoration-line: underline;
