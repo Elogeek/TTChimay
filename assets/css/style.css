@@ -156,6 +156,13 @@ nav {
     margin-right: 0.5rem;
 }
 
+/* Design footer */
+.grey div{
+    background-color: #6e6e6e;
+    width: 100%;
+    height: 15vh;
+}
+
 /* Menu adaptat smartphone */
 @media screen and (max-width: 350px) {
 
