@@ -69,62 +69,16 @@ table td {
     justify-content: left;
 }
 
-#event1,#event2,#event3,#event4 {
+/* IMGS PAGE LOCATION */
+
+#imgMarried, #imgBirthday {
     width: 48rem;
     height: 44vh;
 }
 
-#event1, #event3 {
+#imgMarried, #imgBirthday {
     padding: 2rem;
     margin: 1rem;
-}
-
-/* Text img one */
-#text1 {
-    margin-left: 46rem;
-    margin-top: -24rem;
-    width: 100%;
-}
-
-/* Img born */
-#event2 {
-    margin-top: 30rem;
-    margin-left: -14rem;
-}
-
-/* Text img two */
-#text2 {
-    padding: 1rem;
-    width: 100%;
-    margin-left: -57rem;
-    margin-top: -24rem;
-}
-
-/* Img happy b */
-#event3 {
-    position: absolute;
-    left: 0;
-    top: 64rem;
-}
-
-/* Text img three */
-#text3 {
-    margin-left: -48rem;
-    margin-top: 67rem;
-}
-
-/* Img frieze make by me */
-#event4 {
-    position: absolute;
-    left: 47rem;
-    top: 94rem;
-}
-
-/* Text img four */
-#text4 {
-    padding: 1rem;
-    margin-left: -101rem;
-    margin-top: 88rem;
 }
 
 /* Text imgs  general rules*/
@@ -132,15 +86,25 @@ table td {
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    align-items: flex-start;
+    bottom: 44rem;
+    position: relative;
+    left: 48rem;
+    width: 50%;
 }
 
 h3 {
     color: palevioletred;
 }
 
-h3, .paraLocation {
+.title-big {
+    font-size: 15px;
+}
+
+.title-big, .paraLocation {
     padding: 1rem;
     text-align: left;
+    margin-bottom: 2.5rem;
 }
 
 .purple {
@@ -149,14 +113,15 @@ h3, .paraLocation {
 }
 
 .paraLocation {
-    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+
 }
 #contact {
     margin-top: 500rem;
 }
 
 /* TODO Design responsive location.css */
-
 
 .container {
     margin: 0 auto;
@@ -178,12 +143,23 @@ nav {
     margin-top: 500rem;
 }
 
+/* Link page location */
 a {
     color: black;
     text-decoration-line: none;
     display: block;
     transition: background-color;
     transition-duration: 5s;
+}
+
+.purple {
+    transition: color;
+    transition-duration: 5s;
+}
+
+.purple:hover {
+    color: white;
+    font-size: 15px;
 }
 
 a:hover {
